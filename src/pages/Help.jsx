@@ -1,20 +1,26 @@
 import React, { useState } from 'react';
-import { Check, Copy, Coffee, Heart } from 'lucide-react';
+import { Check, Copy, Coffee, Heart, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Help() {
     const [copied, setCopied] = useState(false);
 
-    // UPI Details
-    const upiId = "omrmahajan@okhdfcbank";
-
     const handleCopyUPI = () => {
-        navigator.clipboard.writeText(upiId);
+        navigator.clipboard.writeText("omrmahajan@okhdfcbank");
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
     };
 
     return (
-        <div className="min-h-[calc(100vh-4rem)] bg-gray-50 flex items-center justify-center p-4">
+        <div className="min-h-[calc(100vh-4rem)] bg-gray-50 flex items-center justify-center p-4 relative">
+            {/* Back Button */}
+            <Link
+                to="/study-material"
+                className="absolute top-4 left-4 flex items-center gap-2 px-4 py-2 bg-white text-gray-700 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 hover:bg-gray-50 border border-gray-200"
+            >
+                <ArrowLeft className="w-4 h-4" />
+                <span className="text-sm font-medium">Back to Study Material</span>
+            </Link>
             <div className="max-w-md w-full bg-white rounded-2xl shadow-sm border border-orange-100 overflow-hidden">
                 {/* Compact Header */}
                 <div className="bg-gradient-to-r from-orange-500 to-amber-500 p-4 text-white text-center flex items-center justify-center gap-4">
@@ -44,7 +50,7 @@ export default function Help() {
                             </div>
                             <div className="flex items-center gap-2 bg-gray-50 border border-gray-200 p-1.5 rounded-lg">
                                 <code className="flex-1 text-sm font-mono text-gray-800 px-2 truncate">
-                                    {upiId}
+                                    omrmahajan@okhdfcbank
                                 </code>
                                 <button
                                     onClick={handleCopyUPI}
@@ -52,7 +58,7 @@ export default function Help() {
                                     title="Copy UPI ID"
                                 >
                                     {copied ? (
-                                        <Check className="w-4 h-4 text-green-500" />
+                                        <Check className="w-4 h-4 text-blue-500" />
                                     ) : (
                                         <Copy className="w-4 h-4 text-gray-500" />
                                     )}
@@ -61,18 +67,6 @@ export default function Help() {
                         </div>
                     </div>
 
-                    {/* <div className="text-center bg-orange-50 rounded-lg p-3"> */}
-                    {/* <p className="text-xs text-orange-800 font-medium">
-                            Scan with any UPI app
-                        </p>
-                        <div className="flex justify-center gap-3 mt-2 opacity-60 grayscale hover:grayscale-0 transition-all duration-300">
-                            <span className="text-[10px] font-bold text-gray-400">GPay</span>
-                            <span className="text-[10px] font-bold text-gray-400">PhonePe</span>
-                            <span className="text-[10px] font-bold text-gray-400">Paytm</span>
-                        </div> */}
-                    {/* </div> */}
-
-                    {/* Instructions */}
                     <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-6">
                         <h3 className="font-semibold text-gray-900 mb-2 flex items-center gap-2">
                             <span className="w-6 h-6 bg-orange-500 text-white rounded-full flex items-center justify-center text-xs">

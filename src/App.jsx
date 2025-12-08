@@ -9,6 +9,7 @@ import Contact from "./pages/Contact.jsx";
 import Help from './pages/Help.jsx';
 import HandWrittenNotes from './pages/HandWrittenNotes.jsx';
 import PYQS from './pages/PYQS.jsx';
+import SubjectResourcesPage from './pages/SubjectResourcesPage.jsx';
 
 function Layout({ children }) {
   const location = useLocation();
@@ -37,6 +38,7 @@ function App() {
           <Route path="/help" element={<Help />} />
           <Route path="/notes" element={<HandWrittenNotes />} />
           <Route path="/pyqs" element={<PYQS />} />
+          <Route path="/:branch/:semester/:subject" element={<SubjectResourcesPage />} />
         </Routes>
       </Layout>
     </BrowserRouter>
