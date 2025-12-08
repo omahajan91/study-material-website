@@ -9,19 +9,19 @@ function Footer() {
             { name: 'Study Material', href: '/study-material' },
             { name: 'Notes', href: '/notes' },
             { name: 'PYQs', href: '/pyqs' },
-            { name: 'Video Lectures', href: '/videos' }
+            { name: 'Video Lectures', href: '/notes' }
         ],
         resources: [
             { name: 'How it Works', href: '/study-material' },
             { name: 'Help Center', href: '/study-material' },
-            { name: 'FAQs', href: '/help' },
-            { name: 'Blog', href: '/help' }
+            { name: 'FAQs', href: '/contact' },
+            { name: 'Blog', href: '/contact' }
         ],
         company: [
-            { name: 'About Us', href: '/help' },
+            { name: 'About Us', href: '/contact' },
             { name: 'Contribute', href: '/contribute' },
-            { name: 'Contact', href: '/help' },
-            { name: 'Privacy Policy', href: '/help' }
+            { name: 'Contact', href: '/contact' },
+            { name: 'Privacy Policy', href: '/contact' }
         ]
     };
 
