@@ -18,7 +18,7 @@ function Navbar() {
     const navLinks = [
         { path: "/", label: "Home" },
         { path: "/study-material", label: "Study Material" },
-        { path: "/help", label: "Help" }
+        { path: "/contact", label: "Contact" }
     ];
 
     const isActive = (path) => {
