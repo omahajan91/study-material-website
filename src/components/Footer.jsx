@@ -7,9 +7,9 @@ function Footer() {
     const footerLinks = {
         product: [
             { name: 'Study Material', href: '/study-material' },
-            { name: 'Notes', href: '/notes' },
-            { name: 'PYQs', href: '/pyqs' },
-            { name: 'Video Lectures', href: '/notes' }
+            { name: 'Notes', href: '/study-material' },
+            { name: 'PYQs', href: '/study-material' },
+            { name: 'Video Lectures', href: '/study-material' }
         ],
         resources: [
             { name: 'How it Works', href: '/study-material' },

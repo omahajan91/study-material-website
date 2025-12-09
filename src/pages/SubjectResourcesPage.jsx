@@ -214,14 +214,14 @@ function SubjectResourcesPage() {
                                                         <div className="flex gap-2">
                                                             <button
                                                                 onClick={() => handleViewPDF(item.url)}
-                                                                className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors text-sm font-medium"
+                                                                className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-900 hover:text-white transition-colors text-sm font-medium cursor-pointer"
                                                             >
                                                                 <Eye className="w-4 h-4" />
                                                                 View
                                                             </button>
                                                             <button
                                                                 onClick={() => handleDownloadPDF(item.url, item.title)}
-                                                                className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-900 hover:text-white transition-colors text-sm font-medium"
+                                                                className="flex-1 flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gray-900 text-gray-900 rounded-lg hover:bg-gray-900 hover:text-white transition-colors text-sm font-medium cursor-pointer"
                                                             >
                                                                 <Download className="w-4 h-4" />
                                                                 Download

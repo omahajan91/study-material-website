@@ -1040,8 +1040,38 @@
     },
     "7": {
       "RMT": {
-        "pyqs": [],
-        "handwrittenNotes": [],
+        "pyqs": [
+            {
+                "title": "RMT_May_Jun_2023",
+                "url": "/RMT.pyqs/RMT_May_Jun_2023.pdf"
+            },
+            {
+                "title": "RMT_May_Jun_2024",
+                "url": "/RMT.pyqs/RMT_May_Jun_2024.pdf"
+            },
+            {
+                "title": "RMT_May_Jun_2025",
+                "url": "/RMT.pyqs/RMT_May_Jun_2025.pdf"
+            },
+            {
+                "title": "RMT_Nov_Dec_2022",
+                "url": "/RMT.pyqs/RMT_Nov_Dec_2022.pdf"
+            },
+            {
+                "title": "RMT_Nov_Dec_2023",
+                "url": "/RMT.pyqs/RMT_Nov_Dec_2023.pdf"
+            },
+            {
+                "title": "RMT_Nov_Dec_2024",
+                "url": "/RMT.pyqs/RMT_Nov_Dec_2024.pdf"
+            }
+        ],
+        "handwrittenNotes": [
+            {
+                "title": "RMT HandWritten Notes",
+                "url": "/RMT.HN/RMT all.pdf"
+            }
+        ],
         "decodeBooks": [],
         "fullBooks": [],
         "videoLectures": [],
@@ -1077,18 +1107,80 @@
         ],
         "handwrittenNotes": [
           {
+            "title": "CC_Unit_3 HandWritten Notes by DK",
+            "url": "/CC.HN/CC_Unit_3_notes_by_Dk.pdf"
+          },
+          {
+            "title": "CC_Unit_4 HandWritten Notes by DK",
+            "url": "/CC.HN/CC_Unit_4_notes_by_Dk.pdf"
+          },
+          {
+            "title": "CC_Unit_5 HandWritten Notes by DK",
+            "url": "/CC.HN/CC_Unit_5_notes_by_Dk.pdf"
+          },
+          {
+            "title": "CC_Unit_6 HandWritten Notes by DK",
+            "url": "/CC.HN/CC_Unit_6_notes_by_Dk.pdf"
+          }, 
+          {
             "title": "CC HandWritten",
             "url": "/CC.HN/cc_handwritten.pdf"
+          },
+          {
+            "title": "CC HandWritten Notes",
+            "url": "/CC.HN/cc_notes_handwritten.pdf"
           }
         ],
         "decodeBooks": [],
         "fullBooks": [],
         "videoLectures": [],
-        "miscellaneous": [],
+        "miscellaneous": [
+          {
+            "title": "CC Nov 2023 solve paper",
+            "url": "/CC.miscellaneous/cc NOV 2023 solve.pdf"
+          },
+          {
+            "title": "CC unit 4 ",
+            "url": "/CC.miscellaneous/CC UNIT 4.pdf"
+          },
+          {
+            "title": "CC unit 5 ",
+            "url": "/CC.miscellaneous/CC UNIT 5.pdf"
+          },
+          {
+            "title": "CC unit 6 ",
+            "url": "/CC.miscellaneous/CC UNIT 6.pdf"
+          }
+        ],
         "aiInsights": []
       },
       "VLSI": {
-        "pyqs": [],
+        "pyqs": [
+            {
+                "title": "VLSI_May_Jun_2023",
+                "url": "/VLSI.pyqs/VLSI_May_Jun_2023.pdf"
+            },
+            {
+                "title": "VLSI_May_Jun_2024",
+                "url": "/VLSI.pyqs/VLSI_May_Jun_2024.pdf"
+            },
+            {
+                "title": "VLSI_May_Jun_2025",
+                "url": "/VLSI.pyqs/VLSI_May_Jun_2025.pdf"
+            },
+            {
+                "title": "VLSI_Nov_Dec_2022",
+                "url": "/VLSI.pyqs/VLSI_Nov_Dec_2022.pdf"
+            },
+            {
+                "title": "VLSI_Nov_Dec_2023",
+                "url": "/VLSI.pyqs/VLSI_Nov_Dec_2023.pdf"
+            },
+            {
+                "title": "VLSI_Nov_Dec_2024",
+                "url": "/VLSI.pyqs/VLSI_Nov_Dec_2024.pdf"
+            }
+        ],
         "handwrittenNotes": [],
         "decodeBooks": [],
         "fullBooks": [],
