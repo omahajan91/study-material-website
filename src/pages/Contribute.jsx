@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Upload, Send, Heart, FileText, Users, Star, CheckCircle, ExternalLink, MessageCircle } from 'lucide-react';
+import { Upload, Send, Heart, FileText, Users, Star, CheckCircle, ExternalLink, MessageCircle, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function ContributePage() {
   const [selectedMethod, setSelectedMethod] = useState(null);
@@ -62,7 +63,15 @@ function ContributePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 relative">
+      {/* Back Button */}
+      <Link
+        to="/study-material"
+        className="absolute top-4 left-4 z-10 flex items-center gap-2 px-4 py-2 bg-white text-gray-700 rounded-lg shadow-sm hover:shadow-md transition-all duration-200 hover:bg-gray-50 border border-gray-200 fixed"
+      >
+        <ArrowLeft className="w-4 h-4" />
+        <span className="text-sm font-medium">Back to Study Material</span>
+      </Link>
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16">
         <div className="max-w-6xl mx-auto px-4">
