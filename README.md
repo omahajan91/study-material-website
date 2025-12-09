@@ -1,7 +1,5 @@
 # StudyHub - SPPU Engineering Study Material 📚
 
-![StudyHub Banner](public/book.png) *<!-- Ideally users would replace this with a screenshot or logo -->*
-
 **StudyHub** is a comprehensive, open-source platform designed to help SPPU (Savitribai Phule Pune University) engineering students access high-quality study materials, including Previous Year Questions (PYQs), handwritten notes, decoded books, and video lectures.
 
 🚀 **Live Demo:** [Click here to view on Vercel](https://study-material-website-cyan.vercel.app/)
