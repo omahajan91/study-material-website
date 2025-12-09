@@ -70,16 +70,12 @@ function Home() {
 
                             <Link
                                 to="/study-material"
-                                //className="hidden md:block px-4 py-1.5 rounded-md border border-gray-900 text-gray-900 text-sm font-medium hover:bg-gray-900 hover:text-white transition-all duration-200"
                             >
                                 <button className="px-6 py-3 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-800 transition-colors duration-200">
-                                Explore Study Material
+                                    Explore Study Material
                                 </button>
                             </Link>
-                            
-                            <button className="px-6 py-3 border-2 border-gray-900 text-gray-900 rounded-lg font-medium hover:bg-gray-50 transition-colors duration-200">
-                                Learn More
-                            </button>
+
                         </div>
                     </div>
 
@@ -161,9 +157,11 @@ function Home() {
                         <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
                             Join thousands of students who are already using StudyHub to prepare better and score higher in their exams.
                         </p>
-                        <button className="px-8 py-3 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200">
-                            Get Started Now
-                        </button>
+                        <Link to="/study-material">
+                            <button className="px-8 py-3 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100 transition-colors duration-200 cursor-pointer">
+                                Get Started Now
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>
